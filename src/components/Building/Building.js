@@ -1,7 +1,25 @@
+import { useState } from 'react';
 import styled from 'styled-components';
+import Card from '../Card/Card';
 
 const Building = ({ className, src }) => {
-  return <img className={className} src={src} alt='' />;
+  const [isHovered, setIsHovered] = useState(false);
+  return (
+    <>
+      <img
+        className={className}
+        src={src}
+        alt=''
+        onMouseEnter={() => {
+          setIsHovered(true);
+        }}
+        onMouseLeave={() => {
+          setIsHovered(false);
+        }}
+      />
+      {isHovered && <Card left='22.5%' translateY='375%' />}
+    </>
+  );
 };
 
 export default styled(Building)`
@@ -13,6 +31,6 @@ export default styled(Building)`
   z-index: 3;
 
   &:hover {
-    transform: scale(1.15) translateY(${(props) => props.translateYHover});
+    transform: scale(${(props) => props.scale}) translateY(${(props) => props.translateYHover});
   }
 `;

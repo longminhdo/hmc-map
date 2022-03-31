@@ -1,5 +1,9 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: radial-gradient(65.91% 132.5% at 81.99% 13.1%, #00B8E5 0%, #0C91C1 34.53%, #263A73 100%)
 }
