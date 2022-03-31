@@ -1,13 +1,13 @@
 import Map from './components/Map/Map';
 import styled from 'styled-components';
-import Building from './components/Building/Building';
+import Building from './components/NewBuilding/Building';
 
-import b1 from './components/Building/buildings/b1.png';
-import c1 from './components/Building/buildings/c1.png';
-import hitech from './components/Building/buildings/hitech.png';
-import c3c10 from './components/Building/buildings/c3-c10.png';
-import parkingB1 from './components/Building/buildings/parking-b1.png';
-import ktx from './components/Building/buildings/ktx.png';
+import b1 from './components/NewBuilding/buildings/b1.png';
+import c1 from './components/NewBuilding/buildings/c1.png';
+import hitech from './components/NewBuilding/buildings/hitech.png';
+import c3c10 from './components/NewBuilding/buildings/c3-c10.png';
+import parkingB1 from './components/NewBuilding/buildings/parking-b1.png';
+import ktx from './components/NewBuilding/buildings/ktx.png';
 
 function App({ className }) {
   return (
