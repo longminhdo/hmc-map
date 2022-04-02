@@ -27,6 +27,7 @@ import sec from './components/NewBuilding/buildings/sec-room.png';
 import tree from './components/NewBuilding/buildings/tree.png';
 import c6 from './components/NewBuilding/buildings/c6.png';
 import cla from './components/NewBuilding/buildings/cla.png';
+import roof from './components/NewBuilding/buildings/roof.png';
 
 function App({ className }) {
   return (
@@ -45,6 +46,7 @@ function App({ className }) {
       <Building src={d8} width='4.69%' left='49.22%' scale='1.11' top='10.78%' />
       <Building src={d6} width='5.12%' left='52.57%' scale='1.13' top='15.27%' />
       <Building src={parking} width='3.85%' left='57.46%' scale='1.18' top='18.85%' />
+      <Building src={roof} width='4.16%' left='54.65%' scale='1' top='20.77%' />
       <Building src={d2a} width='4.53%' left='57.76%' scale='1.18' top='20.83%' />
       <Building src={tree} width='1.13%' left='52.86%' scale='1' top='22.33%' />
 
@@ -64,6 +66,7 @@ function App({ className }) {
       <Building src={cla} width='4.18%' left='56.95%' scale='1.18' top='58.02%' />
 
       <Building src={c3c10} width='13.21%' left='52.90%' scale='1.1' top='38.32%' />
+      <Building src={c2c9} width='7.86%' left='69.26%' scale='1.1' top='28.29%' />
       <Building src={c2c9} width='7.86%' left='69.26%' scale='1.1' top='28.29%' />
       <Building src={c1} width='13.98%' left='65.09%' scale='1.09' top='36.89%' />
       <Building src={hitech} width='3.3%' left='62.97%' scale='1.19' top='50.01%' />
