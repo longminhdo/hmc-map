@@ -4,6 +4,7 @@ import Card from '../Card/Card';
 
 const Building = ({ className, src }) => {
   const [isHovered, setIsHovered] = useState(false);
+
   return (
     <>
       <img
