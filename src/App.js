@@ -34,6 +34,7 @@ function App({ className }) {
     <div className={className}>
       <Map />
       <Building src={b1} width='9.6%' left='16.54%' top='43.78%' scale='1.15' />
+      <Building src={tree} width='1.31%' left='14.99%' top='54.48%' scale='1' />
       <Building src={parking} width='3.8%' left='26.22%' top='54.45%' scale='1.15' />
       <Building src={ktx} width='17.56%' left='28.16%' scale='1.03' top='59.99%' />
       <Building src={parking} width='3.8%' left=' 43.53%' scale='1.15' top='74.2%' />
