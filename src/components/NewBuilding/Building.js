@@ -27,10 +27,10 @@ export default styled(Building)`
   width: ${(props) => props.width};
   left: ${(props) => props.left};
   transition: 300ms;
-  transform: translateY(${(props) => props.translateY});
+  top: ${(props) => props.top};
   z-index: 3;
 
   &:hover {
-    transform: scale(${(props) => props.scale}) translateY(${(props) => props.translateYHover});
+    transform: scale(${(props) => props.scale});
   }
 `;
