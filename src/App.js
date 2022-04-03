@@ -80,4 +80,5 @@ export default styled(App)`
   width: 100%;
   height: calc(100vw * 9 / 16);
   background: radial-gradient(65.91% 132.5% at 81.99% 13.1%, #00b8e5 0%, #0c91c1 34.53%, #263a73 100%);
+  overflow: hidden;
 `;
