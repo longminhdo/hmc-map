@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
-const Card = ({ className }) => {
+const Card = ({ className, text }) => {
   return (
     <div className={className}>
-      <p>Text</p>
+      <p>{ text }</p>
       <div className='background'></div>
     </div>
   );
@@ -17,6 +17,10 @@ export default styled(Card)`
   border: 1px solid red;
   width: ${(props) => props.width};
   left: ${(props) => props.left};
+  top: ${(props) => props.top};
+  transform: translate(${(props) => props.translateX || '0'}, ${(props) => props.translateX || '-120%'});
+  z-index: 5;
+  background-color: white;
 
   .background {
     width: 100%;

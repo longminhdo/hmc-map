@@ -2,8 +2,9 @@ import { useState } from 'react';
 import styled from 'styled-components';
 import Card from '../Card/Card';
 
-const Building = ({ className, src }) => {
+const Building = ({ className, src, left, top, description, text }) => {
   const [isHovered, setIsHovered] = useState(false);
+  const translate = description?.translate;
 
   return (
     <>
@@ -18,7 +19,8 @@ const Building = ({ className, src }) => {
           setIsHovered(false);
         }}
       />
-      {isHovered && <Card left='22.5%' translateY='375%' />}
+
+      {isHovered && <Card left={left} top={top} translateX={translate?.[0]} translateY={translate?.[1]} text={text} />}
     </>
   );
 };
