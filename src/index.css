@@ -2,6 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 
+body {
+  background: radial-gradient(65.91% 132.5% at 81.99% 13.1%, #00b8e5 0%, #0c91c1 34.53%, #263a73 100%);
+  background-repeat: no-repeat;
+  min-height: 100dvh;
+  min-width: 100dvw;
+}
